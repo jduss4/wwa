@@ -273,7 +273,7 @@ class GSAContentHandler(xml.sax.ContentHandler):
  
 if __name__ == "__main__":
 
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 3:
         print 'Usage: ./tei-to-solr.py path_to_tei path_to_manifests'
         sys.exit(1)
 
